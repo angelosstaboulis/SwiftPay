@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D60B68642B59CDFF00AD71FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60B68632B59CDFF00AD71FC /* AppDelegate.swift */; };
+		D60B68662B59CDFF00AD71FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60B68652B59CDFF00AD71FC /* SceneDelegate.swift */; };
+		D60B68682B59CDFF00AD71FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60B68672B59CDFF00AD71FC /* ViewController.swift */; };
+		D60B686B2B59CDFF00AD71FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60B68692B59CDFF00AD71FC /* Main.storyboard */; };
+		D60B686D2B59CE0100AD71FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D60B686C2B59CE0100AD71FC /* Assets.xcassets */; };
+		D60B68702B59CE0100AD71FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60B686E2B59CE0100AD71FC /* LaunchScreen.storyboard */; };
+		D60B687B2B59CE0100AD71FC /* SwiftPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60B687A2B59CE0100AD71FC /* SwiftPayTests.swift */; };
+		D60B68852B59CE0100AD71FC /* SwiftPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60B68842B59CE0100AD71FC /* SwiftPayUITests.swift */; };
+		D60B68872B59CE0100AD71FC /* SwiftPayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60B68862B59CE0100AD71FC /* SwiftPayUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D60B68772B59CE0100AD71FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D60B68582B59CDFF00AD71FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D60B685F2B59CDFF00AD71FC;
+			remoteInfo = SwiftPay;
+		};
+		D60B68812B59CE0100AD71FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D60B68582B59CDFF00AD71FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D60B685F2B59CDFF00AD71FC;
+			remoteInfo = SwiftPay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D60B68602B59CDFF00AD71FC /* SwiftPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60B68632B59CDFF00AD71FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D60B68652B59CDFF00AD71FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D60B68672B59CDFF00AD71FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D60B686A2B59CDFF00AD71FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D60B686C2B59CE0100AD71FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D60B686F2B59CE0100AD71FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D60B68712B59CE0100AD71FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D60B68762B59CE0100AD71FC /* SwiftPayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60B687A2B59CE0100AD71FC /* SwiftPayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPayTests.swift; sourceTree = "<group>"; };
+		D60B68802B59CE0100AD71FC /* SwiftPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60B68842B59CE0100AD71FC /* SwiftPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPayUITests.swift; sourceTree = "<group>"; };
+		D60B68862B59CE0100AD71FC /* SwiftPayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D60B68932B59CE5400AD71FC /* SwiftPay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftPay.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D60B685D2B59CDFF00AD71FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60B68732B59CE0100AD71FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60B687D2B59CE0100AD71FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D60B68572B59CDFF00AD71FC = {
+			isa = PBXGroup;
+			children = (
+				D60B68622B59CDFF00AD71FC /* SwiftPay */,
+				D60B68792B59CE0100AD71FC /* SwiftPayTests */,
+				D60B68832B59CE0100AD71FC /* SwiftPayUITests */,
+				D60B68612B59CDFF00AD71FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D60B68612B59CDFF00AD71FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D60B68602B59CDFF00AD71FC /* SwiftPay.app */,
+				D60B68762B59CE0100AD71FC /* SwiftPayTests.xctest */,
+				D60B68802B59CE0100AD71FC /* SwiftPayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D60B68622B59CDFF00AD71FC /* SwiftPay */ = {
+			isa = PBXGroup;
+			children = (
+				D60B68932B59CE5400AD71FC /* SwiftPay.entitlements */,
+				D60B68632B59CDFF00AD71FC /* AppDelegate.swift */,
+				D60B68652B59CDFF00AD71FC /* SceneDelegate.swift */,
+				D60B68672B59CDFF00AD71FC /* ViewController.swift */,
+				D60B68692B59CDFF00AD71FC /* Main.storyboard */,
+				D60B686C2B59CE0100AD71FC /* Assets.xcassets */,
+				D60B686E2B59CE0100AD71FC /* LaunchScreen.storyboard */,
+				D60B68712B59CE0100AD71FC /* Info.plist */,
+			);
+			path = SwiftPay;
+			sourceTree = "<group>";
+		};
+		D60B68792B59CE0100AD71FC /* SwiftPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				D60B687A2B59CE0100AD71FC /* SwiftPayTests.swift */,
+			);
+			path = SwiftPayTests;
+			sourceTree = "<group>";
+		};
+		D60B68832B59CE0100AD71FC /* SwiftPayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D60B68842B59CE0100AD71FC /* SwiftPayUITests.swift */,
+				D60B68862B59CE0100AD71FC /* SwiftPayUITestsLaunchTests.swift */,
+			);
+			path = SwiftPayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D60B685F2B59CDFF00AD71FC /* SwiftPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D60B688A2B59CE0100AD71FC /* Build configuration list for PBXNativeTarget "SwiftPay" */;
+			buildPhases = (
+				D60B685C2B59CDFF00AD71FC /* Sources */,
+				D60B685D2B59CDFF00AD71FC /* Frameworks */,
+				D60B685E2B59CDFF00AD71FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftPay;
+			productName = SwiftPay;
+			productReference = D60B68602B59CDFF00AD71FC /* SwiftPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D60B68752B59CE0100AD71FC /* SwiftPayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D60B688D2B59CE0100AD71FC /* Build configuration list for PBXNativeTarget "SwiftPayTests" */;
+			buildPhases = (
+				D60B68722B59CE0100AD71FC /* Sources */,
+				D60B68732B59CE0100AD71FC /* Frameworks */,
+				D60B68742B59CE0100AD71FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D60B68782B59CE0100AD71FC /* PBXTargetDependency */,
+			);
+			name = SwiftPayTests;
+			productName = SwiftPayTests;
+			productReference = D60B68762B59CE0100AD71FC /* SwiftPayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D60B687F2B59CE0100AD71FC /* SwiftPayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D60B68902B59CE0100AD71FC /* Build configuration list for PBXNativeTarget "SwiftPayUITests" */;
+			buildPhases = (
+				D60B687C2B59CE0100AD71FC /* Sources */,
+				D60B687D2B59CE0100AD71FC /* Frameworks */,
+				D60B687E2B59CE0100AD71FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D60B68822B59CE0100AD71FC /* PBXTargetDependency */,
+			);
+			name = SwiftPayUITests;
+			productName = SwiftPayUITests;
+			productReference = D60B68802B59CE0100AD71FC /* SwiftPayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D60B68582B59CDFF00AD71FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					D60B685F2B59CDFF00AD71FC = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					D60B68752B59CE0100AD71FC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D60B685F2B59CDFF00AD71FC;
+					};
+					D60B687F2B59CE0100AD71FC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D60B685F2B59CDFF00AD71FC;
+					};
+				};
+			};
+			buildConfigurationList = D60B685B2B59CDFF00AD71FC /* Build configuration list for PBXProject "SwiftPay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D60B68572B59CDFF00AD71FC;
+			productRefGroup = D60B68612B59CDFF00AD71FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D60B685F2B59CDFF00AD71FC /* SwiftPay */,
+				D60B68752B59CE0100AD71FC /* SwiftPayTests */,
+				D60B687F2B59CE0100AD71FC /* SwiftPayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D60B685E2B59CDFF00AD71FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60B68702B59CE0100AD71FC /* LaunchScreen.storyboard in Resources */,
+				D60B686D2B59CE0100AD71FC /* Assets.xcassets in Resources */,
+				D60B686B2B59CDFF00AD71FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60B68742B59CE0100AD71FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60B687E2B59CE0100AD71FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D60B685C2B59CDFF00AD71FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60B68682B59CDFF00AD71FC /* ViewController.swift in Sources */,
+				D60B68642B59CDFF00AD71FC /* AppDelegate.swift in Sources */,
+				D60B68662B59CDFF00AD71FC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60B68722B59CE0100AD71FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60B687B2B59CE0100AD71FC /* SwiftPayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60B687C2B59CE0100AD71FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60B68872B59CE0100AD71FC /* SwiftPayUITestsLaunchTests.swift in Sources */,
+				D60B68852B59CE0100AD71FC /* SwiftPayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D60B68782B59CE0100AD71FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D60B685F2B59CDFF00AD71FC /* SwiftPay */;
+			targetProxy = D60B68772B59CE0100AD71FC /* PBXContainerItemProxy */;
+		};
+		D60B68822B59CE0100AD71FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D60B685F2B59CDFF00AD71FC /* SwiftPay */;
+			targetProxy = D60B68812B59CE0100AD71FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D60B68692B59CDFF00AD71FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D60B686A2B59CDFF00AD71FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D60B686E2B59CE0100AD71FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D60B686F2B59CE0100AD71FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D60B68882B59CE0100AD71FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D60B68892B59CE0100AD71FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D60B688B2B59CE0100AD71FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftPay/SwiftPay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftPay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.SwiftPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D60B688C2B59CE0100AD71FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftPay/SwiftPay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftPay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.SwiftPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D60B688E2B59CE0100AD71FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.SwiftPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftPay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftPay";
+			};
+			name = Debug;
+		};
+		D60B688F2B59CE0100AD71FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.SwiftPayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftPay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftPay";
+			};
+			name = Release;
+		};
+		D60B68912B59CE0100AD71FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.SwiftPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftPay;
+			};
+			name = Debug;
+		};
+		D60B68922B59CE0100AD71FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.SwiftPayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftPay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D60B685B2B59CDFF00AD71FC /* Build configuration list for PBXProject "SwiftPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60B68882B59CE0100AD71FC /* Debug */,
+				D60B68892B59CE0100AD71FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D60B688A2B59CE0100AD71FC /* Build configuration list for PBXNativeTarget "SwiftPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60B688B2B59CE0100AD71FC /* Debug */,
+				D60B688C2B59CE0100AD71FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D60B688D2B59CE0100AD71FC /* Build configuration list for PBXNativeTarget "SwiftPayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60B688E2B59CE0100AD71FC /* Debug */,
+				D60B688F2B59CE0100AD71FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D60B68902B59CE0100AD71FC /* Build configuration list for PBXNativeTarget "SwiftPayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60B68912B59CE0100AD71FC /* Debug */,
+				D60B68922B59CE0100AD71FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D60B68582B59CDFF00AD71FC /* Project object */;
+}
