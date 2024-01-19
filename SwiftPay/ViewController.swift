@@ -8,7 +8,8 @@
 import UIKit
 import PassKit
 class ViewController: UIViewController,PKPaymentAuthorizationViewControllerDelegate {
-        
+    @IBOutlet weak var btnPay: UIButton!
+    
     @IBOutlet weak var txtName: UITextField!
     
     @IBOutlet weak var txtEmail: UITextField!
@@ -23,8 +24,7 @@ class ViewController: UIViewController,PKPaymentAuthorizationViewControllerDeleg
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let guide = view.safeAreaLayoutGuide
-       
+        setupView()
         // Do any additional setup after loading the view.
         
     }
@@ -59,6 +59,16 @@ class ViewController: UIViewController,PKPaymentAuthorizationViewControllerDeleg
     }
 }
 extension ViewController{
+    func setupView(){
+        let guide = view.safeAreaLayoutGuide
+        btnPay.translatesAutoresizingMaskIntoConstraints = false
+        btnPay.layer.cornerRadius = 16
+        btnPay.tintColor = .white
+        btnPay.widthAnchor.constraint(equalTo:guide.widthAnchor, multiplier: 0.9).isActive = true
+        btnPay.centerXAnchor.constraint(equalToSystemSpacingAfter: guide.centerXAnchor, multiplier: 0).isActive = true
+        btnPay.bottomAnchor.constraint(equalTo: guide.bottomAnchor, constant: 0.3).isActive = true
+        btnPay.layer.backgroundColor = UIColor.blue.cgColor
+    }
     func paymentAuthorizationViewController(_ controller: PKPaymentAuthorizationViewController, didAuthorizePayment payment: PKPayment, handler completion: @escaping (PKPaymentAuthorizationResult) -> Void) {
         debugPrint("payment was successfull")
     }

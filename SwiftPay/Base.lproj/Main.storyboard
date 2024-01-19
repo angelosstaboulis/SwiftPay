@@ -35,7 +35,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g1I-ef-sEO">
-                                                        <rect key="frame" x="20" y="120" width="299.33333333333331" height="36"/>
+                                                        <rect key="frame" x="20" y="120" width="358" height="36"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="36" id="X3J-eK-tKZ"/>
                                                         </constraints>
@@ -52,7 +52,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PKI-uz-Z1c">
-                                                        <rect key="frame" x="20" y="214" width="299.33333333333331" height="36"/>
+                                                        <rect key="frame" x="20" y="214" width="358" height="36"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="36" id="SOc-dA-Vgc"/>
                                                         </constraints>
@@ -69,7 +69,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uX0-wn-Gjg">
-                                                        <rect key="frame" x="20" y="320" width="299.33333333333331" height="36"/>
+                                                        <rect key="frame" x="20" y="320" width="358" height="36"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="36" id="ATP-Kg-JCE"/>
                                                         </constraints>
@@ -86,7 +86,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WgD-mS-pBT">
-                                                        <rect key="frame" x="20" y="414" width="299.33333333333331" height="36"/>
+                                                        <rect key="frame" x="20" y="414" width="358" height="36"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="36" id="ly3-UD-Kaj"/>
                                                         </constraints>
@@ -103,7 +103,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aFv-iq-SRY">
-                                                        <rect key="frame" x="20" y="520" width="299.33333333333331" height="36"/>
+                                                        <rect key="frame" x="20" y="520" width="358" height="36"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="36" id="VRB-pH-yc7"/>
                                                         </constraints>
@@ -115,12 +115,12 @@
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="36" id="kUQ-3I-76Q"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ljQ-Yb-wm9">
-                                                        <rect key="frame" x="20" y="620" width="299.33333333333331" height="36"/>
+                                                        <rect key="frame" x="20" y="620" width="358" height="36"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="36" id="jMv-Rh-Hqm"/>
                                                         </constraints>
@@ -139,7 +139,7 @@
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SwiftPay" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gki-nW-014">
-                                                        <rect key="frame" x="103.66666666666667" y="8" width="132.33333333333331" height="36"/>
+                                                        <rect key="frame" x="152" y="8" width="132.33333333333337" height="36"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="132.33333333333337" id="H15-VM-ue8"/>
                                                         </constraints>
@@ -155,7 +155,7 @@
                                                     <constraint firstItem="m18-nH-INi" firstAttribute="top" secondItem="WgD-mS-pBT" secondAttribute="bottom" constant="20" id="3x7-E4-MPW"/>
                                                     <constraint firstItem="4Vn-1s-K1E" firstAttribute="trailing" secondItem="KFs-Ew-lOg" secondAttribute="trailing" id="4wg-J5-lTg"/>
                                                     <constraint firstItem="nKc-Wz-3f1" firstAttribute="leading" secondItem="l3C-AJ-mOB" secondAttribute="leading" constant="20" id="74d-0H-h6U"/>
-                                                    <constraint firstAttribute="trailing" secondItem="g1I-ef-sEO" secondAttribute="trailing" constant="87" id="7S4-Mk-2yL"/>
+                                                    <constraint firstAttribute="trailing" secondItem="g1I-ef-sEO" secondAttribute="trailing" constant="28.333333333333314" id="7S4-Mk-2yL"/>
                                                     <constraint firstItem="4Vn-1s-K1E" firstAttribute="top" secondItem="PKI-uz-Z1c" secondAttribute="bottom" constant="20" id="8M7-qw-Lm2"/>
                                                     <constraint firstItem="aFv-iq-SRY" firstAttribute="top" secondItem="m18-nH-INi" secondAttribute="bottom" constant="14" id="8VT-Cn-Tzq"/>
                                                     <constraint firstItem="KFs-Ew-lOg" firstAttribute="top" secondItem="uX0-wn-Gjg" secondAttribute="bottom" constant="14" id="8zU-2L-p9A"/>
@@ -170,7 +170,7 @@
                                                     <constraint firstItem="aFv-iq-SRY" firstAttribute="trailing" secondItem="ljQ-Yb-wm9" secondAttribute="trailing" id="Oth-6s-fiB"/>
                                                     <constraint firstItem="Vmm-qc-ol0" firstAttribute="top" secondItem="g1I-ef-sEO" secondAttribute="bottom" constant="14" id="Pdx-iG-Xp8"/>
                                                     <constraint firstItem="gki-nW-014" firstAttribute="top" secondItem="l3C-AJ-mOB" secondAttribute="top" constant="8" id="PyN-XT-dwV"/>
-                                                    <constraint firstItem="gki-nW-014" firstAttribute="centerX" secondItem="g1I-ef-sEO" secondAttribute="centerX" id="QdP-CJ-Ejb"/>
+                                                    <constraint firstItem="gki-nW-014" firstAttribute="centerX" secondItem="g1I-ef-sEO" secondAttribute="centerX" constant="19.166666666666657" id="QdP-CJ-Ejb"/>
                                                     <constraint firstItem="PKI-uz-Z1c" firstAttribute="top" secondItem="Vmm-qc-ol0" secondAttribute="bottom" constant="8" symbolic="YES" id="VYa-pL-If7"/>
                                                     <constraint firstItem="WgD-mS-pBT" firstAttribute="leading" secondItem="m18-nH-INi" secondAttribute="leading" id="Yk0-Rm-k0C"/>
                                                     <constraint firstItem="aFv-iq-SRY" firstAttribute="leading" secondItem="qA7-TA-aiR" secondAttribute="leading" id="Ylf-qo-HUb"/>
@@ -214,6 +214,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="btnPay" destination="bTw-GA-3g6" id="gNd-Ga-BCN"/>
                         <outlet property="txtAmount" destination="ljQ-Yb-wm9" id="UKt-D0-dLp"/>
                         <outlet property="txtCountryCode" destination="WgD-mS-pBT" id="9L3-uM-Enb"/>
                         <outlet property="txtCurrencyCode" destination="aFv-iq-SRY" id="DuG-Qo-tau"/>
@@ -229,7 +230,7 @@
     </scenes>
     <resources>
         <systemColor name="systemTealColor">
-            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.18823529410000001" green="0.69019607839999997" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
