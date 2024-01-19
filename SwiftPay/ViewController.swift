@@ -7,7 +7,8 @@
 
 import UIKit
 import PassKit
-class ViewController: UIViewController {
+class ViewController: UIViewController,PKPaymentAuthorizationViewControllerDelegate {
+        
     @IBOutlet weak var txtName: UITextField!
     
     @IBOutlet weak var txtEmail: UITextField!
@@ -48,6 +49,7 @@ class ViewController: UIViewController {
                     debugPrint("something went wrong!!!")
                     return
                 }
+                paymentRequest.delegate = self
                 paymentRequest.modalPresentationStyle = .fullScreen
                 self.present(paymentRequest, animated: true)
             }
@@ -56,4 +58,12 @@ class ViewController: UIViewController {
         }
     }
 }
-
+extension ViewController{
+    func paymentAuthorizationViewController(_ controller: PKPaymentAuthorizationViewController, didAuthorizePayment payment: PKPayment, handler completion: @escaping (PKPaymentAuthorizationResult) -> Void) {
+        debugPrint("payment was successfull")
+    }
+    func paymentAuthorizationViewControllerDidFinish(_ controller: PKPaymentAuthorizationViewController) {
+        debugPrint("payment was finished")
+        controller.dismiss(animated: true)
+    }
+}
